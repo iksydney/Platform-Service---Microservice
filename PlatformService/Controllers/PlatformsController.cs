@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using PlatformService.Data;
 using PlatformService.Dtos;
 using PlatformService.Models;
+using PlatformService.SyncDataService.Http;
 using PlatforService.Data;
 
 namespace PlatformService.Controllers
@@ -13,13 +14,13 @@ namespace PlatformService.Controllers
     [ApiController]
     public class PlatformsController : ControllerBase
     {
-        private readonly ILogger<PlatformsController> _logger;
+        private readonly ICommandDataClient _commandDataClient;
         private readonly IPlatformRepo _repository;
         private readonly IMapper _mapper;
 
-        public PlatformsController(ILogger<PlatformsController> logger, IPlatformRepo repository, IMapper mapper)
+        public PlatformsController(ICommandDataClient commandDataClient, IPlatformRepo repository, IMapper mapper)
         {
-            _logger = logger;
+            _commandDataClient = commandDataClient;
             _repository = repository;
             _mapper = mapper;
         }   
