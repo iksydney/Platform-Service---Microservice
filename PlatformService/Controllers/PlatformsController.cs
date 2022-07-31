@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -49,13 +51,18 @@ namespace PlatformService.Controllers
         }
 
         [HttpPost]
-        public ActionResult<PlatformReadDto> CreatePlatform(PlatformCreateDto platformCreateDto)
+        public async Task<ActionResult<PlatformReadDto>> CreatePlatform(PlatformCreateDto platformCreateDto)
         {
             var platformModel = _mapper.Map<Platform>(platformCreateDto);
             _repository.CreatePlatform(platformModel);
             _repository.SaveChanges();
-
+            
             var PlatformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
+            try{
+                await _commandDataClient.SendPlatformToCommand(PlatformReadDto);
+            }catch(Exception ex){
+                System.Console.WriteLine(  $"--> Could not send message Synchronously: {ex.Message}");
+            }
             return CreatedAtRoute(nameof(GetPlatFormById), new{id=PlatformReadDto.Id}, PlatformReadDto);
         }
     }
