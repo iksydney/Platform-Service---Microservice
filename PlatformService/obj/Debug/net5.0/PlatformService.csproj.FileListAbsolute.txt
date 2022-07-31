@@ -187,3 +187,4 @@ C:\Users\hp\Desktop\S4\e3\PlatformService\obj\Debug\net5.0\refint\PlatformServic
 C:\Users\hp\Desktop\S4\e3\PlatformService\obj\Debug\net5.0\PlatformService.pdb
 C:\Users\hp\Desktop\S4\e3\PlatformService\obj\Debug\net5.0\PlatformService.genruntimeconfig.cache
 C:\Users\hp\Desktop\S4\e3\PlatformService\obj\Debug\net5.0\ref\PlatformService.dll
+C:\Users\hp\Desktop\S4\E3\PlatformService\bin\Debug\net5.0\appsettings.Production.json
