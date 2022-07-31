@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj": {}
+    "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj": {
+    "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,24 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
