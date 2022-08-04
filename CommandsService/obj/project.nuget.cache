@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qf30HwpKdQJsEQKOwz4bc/fWqFeXo0EJQz6XGXg//J5ZuiZmULI5jISJzb58h6dt5ov1i6xvnU8fqHra6gFIFA==",
+  "dgSpecHash": "f1fEsVucrgR1NkxtZpChBMKuni1XEJQ8uo2P0z8TiboG63IKNcAcb9eDaCTSngxy3ILUOnw290sMl8LY3QxMhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

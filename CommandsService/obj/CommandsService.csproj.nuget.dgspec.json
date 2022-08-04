@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj": {}
+    "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj": {
+    "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\CommandsService.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\CommandsService.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\S4\\E3\\CommandsService\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\S4\\e3\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
